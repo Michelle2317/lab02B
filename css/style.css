@@ -94,8 +94,13 @@ a {
     font-weight: 300;
 }
 
+h2{
+    margin: 0.5rem;
+}
+
 p {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
 }
 
 *,
@@ -111,6 +116,15 @@ img {
 /*
 * Metrolics Home Page CSS
 */
+
+.page-intro {
+    margin: 2rem;
+}
+
+.page-intro-blue {
+    color: #42b1d6;
+}
+
 .page-home {
     margin: 0;
 }
@@ -175,13 +189,13 @@ img {
     background-color: #1469a0;
 }
 
-.page-nav-icon{
+.page-nav-icon {
     background-color: rgba(255, 255, 255, 0.212);
     border-radius: 50%;
     padding: 0.5rem;
 }
 
-.page-nav-title{
+.page-nav-title {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -191,7 +205,7 @@ img {
     width: 0;
 }
 
-.fa-angle-right-none{
+.fa-angle-right-none {
     display: none;
 }
 
@@ -224,13 +238,47 @@ img {
     padding: 1rem;
 }
 
-.page-main-item,
 .project,
 .footer-item {
     display: flex;
     height: 35vh;
     flex: 1;
     background-color: lightgray;
+}
+
+.page-main-item {
+    padding-top: 1rem;
+}
+
+.page-main-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.11rem solid;
+    padding: 0.75rem 1rem; 
+}
+
+.fa-lightbulb-o{
+    color: #ffb900;
+    padding: 0.75rem 1.5rem;
+}
+
+.fa-picture-o{
+    color: #23c387;
+}
+
+.fa-cogs{
+    color: #dc5f5f;
+}
+
+.fa-pencil{
+    color: #1491b9;
+}
+
+.page-main-heading {
+    padding-top: 1rem;
+    font-weight: bold;
+    margin: 0;
 }
 
 .page-intro h2,
