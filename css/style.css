@@ -210,14 +210,15 @@ img {
 }
 
 .page-slider {
+    position: relative;
     background-color: #ebebeb;
     height: 70vh;
 }
 
 .slider-row {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     max-width: 60em;
     margin: 0 auto;
 }
@@ -225,6 +226,39 @@ img {
 .slider-placeholder {
     width: 60em;
     height: 70vh;
+}
+
+.slider-content {
+    position: absolute;
+    top: 12rem;
+    left: 5rem;
+    transform: translateY(-50%);
+}
+
+.slider-content ul {
+    list-style: none;
+    color: #3c3c3c;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+
+.slider-content li span {
+    display: block;
+    background-color: #eef5fc;
+    padding: 0.5em 1em;
+}
+
+.slider-content li:nth-child(1) span {
+    border-left: 6px solid #0064a3;
+}
+
+.slider-content li:nth-child(2) span {
+    border-left: 6px solid #ef4a53;
+}
+
+.slider-content li:nth-child(3) span {
+    border-left: 6px solid #ffbb00;
 }
 
 .page-intro {
@@ -235,7 +269,7 @@ img {
 .page-main {
     text-align: center;
     min-height: 1rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .project,
@@ -281,6 +315,11 @@ img {
     margin: 0;
 }
 
+.page-main-column {
+    width: 24%;
+    padding: 0.5rem;
+}
+
 .page-intro h2,
 .page-lately,
 .page-latest,
@@ -310,7 +349,7 @@ img {
 .column-sponsors,
 .footer-about {
     display: flex;
-    height: 18vh;
+    height: 15vh;
     flex: 1;
     background-color: lightgray;
 }
