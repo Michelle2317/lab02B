@@ -653,8 +653,7 @@ img {
 }
 
 .mobile-menu-bar {
-    visibility: hidden;
-    display: none;
+    display: none !important;
 }
 
 /* ==========================================================================
@@ -781,11 +780,11 @@ header {
     }
 
     .mobile-menu-bar {
+        display: inline !important;
         position: relative;
         top: 2rem;
         right: 1rem;
         visibility: visible;
-        display: block;
         background-color: #398cb5;
         color: white;
         height: 3rem;
