@@ -489,13 +489,12 @@ img {
 .footer-tweet-position {
     display: flex;
     flex-direction: column;
-    justify-content: top;
     flex: 1;
     padding-top: 0.5rem;
     padding-right: 0;
 }
 
-.footer-icons-tweet{
+.footer-icons-tweet {
     background-color: #5c666f;
     padding: 0.4rem;
     border-radius: 50%;
@@ -534,6 +533,12 @@ img {
 .footer-bottom-size {
     padding-left: 0.32rem;
 }
+
+.mobile-menu-bar {
+    visibility: hidden;
+    display: none;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -626,14 +631,61 @@ header {
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
+    .page-nav-item, .page-slider, .footer-hide, .footer-flickr, .footer-news{
+        display: none;
+    }
+
+    .row-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-main-column {
+        width: 100%;
+    }
+
+    .page-main-item {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .page-main-icon {
+        position: relative;
+        top: 1.5rem;
+        height: 50%;
+        margin-right: 0.5rem;
+    }
+
+    .page-header {
+        margin: 2rem;
+        margin-top: 0rem;
+    }
+
+    .mobile-menu-bar {
+        position: relative;
+        top: 2rem;
+        right: 1rem;
+        visibility: visible;
+        display: block;
+        background-color: #398cb5;
+        color: white;
+        height: 3rem;
+        padding: 0.5rem;
+    }
+
+    .page-intro {
+        margin-bottom: 0rem;
+    }
+    
 }
-/* Medium and up */
+/* Medium and up              */
 @media screen and (min-width: 40em) {
 }
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
 }
-/* Large and up */
+/* Large and up                */
 @media screen and (min-width: 64em) {
 }
 /* Large only */
