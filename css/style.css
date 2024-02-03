@@ -94,7 +94,7 @@ a {
     font-weight: 300;
 }
 
-h2{
+h2 {
     margin: 0.5rem;
 }
 
@@ -288,23 +288,23 @@ img {
     justify-content: center;
     align-items: center;
     border: 0.11rem solid;
-    padding: 0.75rem 1rem; 
+    padding: 0.75rem 1rem;
 }
 
-.fa-lightbulb-o{
+.fa-lightbulb-o {
     color: #ffb900;
     padding: 0.75rem 1.5rem;
 }
 
-.fa-picture-o{
+.fa-picture-o {
     color: #23c387;
 }
 
-.fa-cogs{
+.fa-cogs {
     color: #dc5f5f;
 }
 
-.fa-pencil{
+.fa-pencil {
     color: #1491b9;
 }
 
@@ -324,6 +324,122 @@ img {
 .page-latest,
 .page-misc {
     text-align: center;
+}
+
+.post-row {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 0.8rem;
+    position: relative;
+}
+
+.post-wrapper {
+    position: relative;
+}
+
+.post-info {
+    background-color: #19b2de;
+    position: relative;
+    margin-top: -4rem;
+    z-index: 10;
+    padding: 0rem 1rem;
+    text-align: left;
+}
+
+.post-icon {
+    margin: 0.5rem;
+    float: right;
+}
+
+.fa-camera,
+.fa-file-o {
+    background-color: #1596bd;
+    height: 2em;
+    width: 2em;
+}
+
+.post-sample-text {
+    font-weight: 500;
+    color: white;
+    padding-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.post-sample-type {
+    font-weight: 400;
+    color: white;
+    margin-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.page-lately-heading {
+    text-align: center;
+}
+
+.post-date {
+    background-color: #d8605f;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+.post-date-day {
+    font-weight: 700;
+    font-size: 1.23em;
+    padding: 0;
+    margin: 0;
+}
+
+.post-date-month-year {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.703em;
+    padding: 0;
+    margin: 0;
+}
+
+.fa-camera:before,
+.fa-file-o::before {
+    top: 0.7em;
+    left: 0.49em;
+    color: white;
+    position: relative;
+}
+
+.post-latest-info {
+    position: relative;
+    margin-top: -5rem;
+    z-index: 10;
+    padding: 0rem 1rem;
+    text-align: left;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background-color: #19b2de;
+}
+
+.project {
+    display: flex;
+    height: 40vh;
+    width: 18rem;
+    flex: 1;
+    background-color: lightgray;
 }
 
 .project h4 {
@@ -352,7 +468,7 @@ img {
     background-color: lightgray;
 }
 
-.page-footer{
+.page-footer {
     background-color: #16242f;
     color: #fff;
 }
@@ -365,7 +481,7 @@ img {
 .footer-top-line {
     display: flex;
     place-content: start;
-    border-bottom: 0.10rem solid #3d3d3d;
+    border-bottom: 0.1rem solid #3d3d3d;
     width: 47rem;
 }
 
@@ -393,7 +509,8 @@ img {
     font-style: italic;
 }
 
-.footer-about-us, .footer-flickr {
+.footer-about-us,
+.footer-flickr {
     padding-right: 0;
 }
 
@@ -470,7 +587,8 @@ img {
     background-color: #ffb900;
 }
 
-.flickr-minion-group, .footer-tweets {
+.flickr-minion-group,
+.footer-tweets {
     padding: 0;
 }
 
