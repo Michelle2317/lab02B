@@ -456,7 +456,8 @@ img {
 
 .page-misc-item {
     display: flex;
-    height: 35vh;
+    height: 36vh;
+    width: 100%;
     flex: 1;
     background-color: lightgray;
 }
@@ -748,7 +749,11 @@ header {
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-    .page-nav-item, .page-slider, .footer-hide, .footer-flickr, .footer-news{
+    .page-nav-item,
+    .page-slider,
+    .footer-hide,
+    .footer-flickr,
+    .footer-news {
         display: none;
     }
 
@@ -794,15 +799,14 @@ header {
     .page-intro {
         margin-bottom: 0rem;
     }
-    
 }
-/* Medium and up              */
+/* Medium and up */
 @media screen and (min-width: 40em) {
 }
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
 }
-/* Large and up                */
+/* Large and up */
 @media screen and (min-width: 64em) {
 }
 /* Large only */
