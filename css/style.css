@@ -357,6 +357,7 @@ img {
     background-color: #1596bd;
     height: 2em;
     width: 2em;
+    padding-left: 0.15rem;
 }
 
 .post-sample-text {
