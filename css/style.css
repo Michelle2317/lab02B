@@ -946,6 +946,27 @@ header {
     .footer-bottom-colors {
         justify-content: end;
     }
+
+    .footer-top-line {
+        width: 33rem;
+    }
+
+    .page-sponsors-tablet-row {
+        display: flex;
+        flex-direction: row;
+        gap: 0.25rem;
+    }
+
+    .page-sponsors-images-tablet {
+        flex: none;
+        padding: 0;
+        width: 5.5rem;
+    }
+
+    .column-tablet {
+        flex-direction: column;
+        width: 32rem;
+    }
 }
 
 /* ==========================================================================
