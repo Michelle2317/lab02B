@@ -862,12 +862,11 @@ header {
         justify-content: center;
         padding-left: 0.25rem;
         padding-right: 0.25rem;
-        }
+    }
 
     .footer-icons {
         padding: 0.75rem;
     }
-
 
     .footer-bottom-colors {
         justify-content: center;
