@@ -678,6 +678,10 @@ img {
     display: none !important;
 }
 
+.hide-not-mobile {
+    display: none;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -774,7 +778,9 @@ header {
     .page-slider,
     .footer-hide,
     .footer-flickr,
-    .footer-news {
+    .footer-news,
+    .page-misc,
+    .page-sponsors {
         display: none;
     }
 
@@ -820,6 +826,56 @@ header {
     .page-intro {
         margin-bottom: 0rem;
     }
+
+    .post-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+
+    .overlay-mobile {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .post-latest-info {
+        background-color: #19b2de;
+    }
+
+    .hide-not-mobile {
+        display: block;
+    }
+
+    .column-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-top-line {
+        width: 15rem;
+    }
+
+    .footer-item-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        }
+
+    .footer-icons {
+        padding: 0.75rem;
+    }
+
+
+    .footer-bottom-colors {
+        justify-content: center;
+    }
+
+    .footer-show {
+        display: block;
+    }
 }
 
 /* Medium only */
@@ -857,7 +913,6 @@ header {
 
     .post-row-tablet {
         display: block;
-       
     }
 
     .post-row-tablet .post-wrapper {
